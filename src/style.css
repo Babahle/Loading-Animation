@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+body {
+  position: relative;
+  background: #ad2831;
+}
+
+main {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #344966;
+  height: 100vh;
+  color: white;
+  font-size: 4rem;
+}
+
+.bars-container {
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  top: 0;
+  left: right;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+}
+
+.bar {
+  width: 100%;
+  height: 100vh;
+  background: gray;
+}
+
+#one {
+  background: #f4a261;
+}
+
+#two {
+  background: #efc88b;
+}
+
+#three {
+  background: #f4a261;
+}
+
+#four {
+  background: #efc88b;
+}
